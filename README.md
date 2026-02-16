@@ -28,7 +28,21 @@ The project utilizes the **PyOD** (Python Outlier Detection) framework to implem
 | **ABOD** | **65 / 212** | Higher sensitivity for sparse anomalies. |
 | **KNN** | 51 / 212 | More conservative, better cluster cohesion. |
 
-## 📦 Usage
-1. Install dependencies:
-```bash
+## 📦 Usage & Installation
+1. Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/Medical-Anomaly-Detection-PyOD.git
+
+2. Install dependencies:
+
 pip install -r requirements.txt
+
+3. Run the analysis:
+ 
+Open Medical_Anomaly_Detection.ipynb in Google Colab or Jupyter Notebook and run all cells. The dataset will be automatically downloaded during the first run.
+
+📂 File Structure:
+
+Medical_Anomaly_Detection.ipynb: Complete Python implementation and visualization.
+
+requirements.txt: List of required libraries (PyOD, Scikit-learn, etc.).
